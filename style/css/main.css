@@ -18,7 +18,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     box-sizing: border-box;
 }
 
-p, h2, h3, h4, h5, input, button{
+html{
+    overflow-x: hidden;
+}
+
+p, h2, h3, h4, h5, input, button, li{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -29,6 +33,11 @@ main {
 
 h1{
     font-family: 'Shrikhand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 header{
@@ -44,6 +53,13 @@ header{
 
 .flexbox{
     display: flex;
+}
+
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
 }
 
 .logo{
@@ -111,3 +127,191 @@ header{
     padding-right: 25px;
 }
 
+.cardlist{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card1{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 20px;
+    font-weight: 700;
+
+    margin-top: 15px;
+    box-shadow: 0px 3px 5px #bdbdbd;
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+
+.card1:hover{
+    background-color: #F5EDFF;
+}
+
+.mobileIco h3::before{
+    font-family: "FontAwesome";
+    content: "\f3cd";
+    margin-right: 25px;
+    color: #7A7A7A;
+    font-size: 25px;
+
+    padding-left: 20px;
+}
+
+.listIco h3::before{
+    font-family: "FontAwesome";
+    content: "\f03a";
+    margin-right: 25px;
+    color: #7A7A7A;
+    font-size: 25px;
+
+    padding-left: 20px;
+}
+
+.shopIco h3::before{
+    font-family: "FontAwesome";
+    content: "\f54e";
+    margin-right: 25px;
+    color: #7A7A7A;
+    font-size: 25px;
+
+    padding-left: 20px;
+}
+
+.bulle{
+    background-color: #9356DC;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+
+    transform: translate(-100%, 50%);
+}
+
+.bulle p{
+    text-align: center;
+    color: white;
+    margin-top: 10px
+}
+
+.section3{
+    margin-top: 50px;
+    padding: 50px 25px 50px 25px;
+
+    background-color: #F6F6F6;
+}
+
+.cardlist{
+    flex-direction: column;
+}
+
+.card2{
+    background-color: white;
+    border-radius: 25px;
+    line-height: 10px;
+    margin-top: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: .2s ease-out;
+    box-shadow: 0px 3px 5px #eeeeee;
+}
+
+.card2:hover{
+    box-shadow: 0px 3px 5px #929292;
+}
+
+.cardTXT{
+    padding: 10px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cardTXT h3, .cardTXT p{
+    margin: 5px;
+}
+
+.icoCoeur{
+    font-size: 30px;
+    align-content: center;
+    margin: auto 20px;
+    cursor: pointer;
+}
+
+.icoCoeur .fas{
+    display: none;
+}
+
+.icoCoeur:hover .fas{
+    display: block;
+    color: rgb(160,88,245);
+    color: linear-gradient(342deg, rgba(160,88,245,1) 0%, rgba(255,135,222,1) 65%);
+}
+
+.icoCoeur:hover .far{
+    display: none;
+}
+
+.card2 img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+    height: 250px;
+}
+
+.cardNew{
+    background-color: #99E2D0;
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.cardNew p{
+    color: #217460;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: #353535;
+    padding: 25px;
+    color: white;
+}
+
+footer h2{
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: 200;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+    line-height: 25px;
+}
+
+li a{
+    font-size: 20px;
+}
+
+li a:hover{
+    transition: .3s ease-out;
+    color: #9356DC;
+}
+
+.icoResto::before{
+    font-family: "FontAwesome";
+    content: "\f2e7";
+    font-size: 15px;
+    color: white;
+    padding-right: 10px;
+}
+
+.icoHand::before{
+    font-family: "FontAwesome";
+    content: "\f4c4";
+    font-size: 15px;
+    color: white;
+    padding-right: 5px;
+}

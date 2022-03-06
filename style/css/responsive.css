@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+
+    .cardlist{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
