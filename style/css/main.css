@@ -219,6 +219,10 @@ header{
     box-shadow: 0px 3px 5px #929292;
 }
 
+.card2:hover h3{
+    color: #9356DC;
+}
+
 .cardTXT{
     padding: 10px;
     flex-direction: column;
