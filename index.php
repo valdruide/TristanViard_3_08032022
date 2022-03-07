@@ -99,20 +99,22 @@
                 </div>
 
                 <div class="card2">
-                    <div class="cardNew">
-                        <p>Nouveau</p>
-                    </div>
-                    <img src="style/img/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image restaurant La note enchantée">
-                    <div class="flexbox">
-                        <div class="cardTXT flexbox">
-                            <h3>La note enchantée</h3>
-                            <p>Charonne</p>
+                    <a href="La-note-enchantee.php">
+                        <div class="cardNew">
+                            <p>Nouveau</p>
                         </div>
-                        <div class="icoCoeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-heart"></i>
+                        <img src="style/img/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image restaurant La note enchantée">
+                        <div class="flexbox">
+                            <div class="cardTXT flexbox">
+                                <h3>La note enchantée</h3>
+                                <p>Charonne</p>
+                            </div>
+                            <div class="icoCoeur">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="card2">

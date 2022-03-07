@@ -386,6 +386,8 @@ li a:hover{
     width: 100%;
     overflow: hidden;
     cursor: pointer;
+    flex-basis: 30%;
+    box-shadow: 0px 3px 5px #bdbdbd;
 }
 
 .card3 h3, .card3 p{
@@ -462,29 +464,3 @@ li a:hover{
     }
 }
 
-.appear1{
-    opacity: 0;
-    animation: aparition 1s .3s ease-in-out forwards;
-}
-
-.appear2{
-    opacity: 0;
-    animation: aparition 1s .5s ease-in-out forwards;
-}
-
-.appear3{
-    opacity: 0;
-    animation: aparition 1s .7s ease-in-out forwards;
-}
-
-@keyframes aparition{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0.1;
-    }
-    100%{
-        opacity: 1;
-    }
-}
