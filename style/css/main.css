@@ -354,3 +354,51 @@ li a:hover{
     height: 4px;
     width: 40px;
 }
+
+.cardMenuList{
+    flex-direction: column;
+}
+
+.card3{
+    margin-top: 25px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.card3 h3, .card3 p{
+    margin: 10px;
+}
+
+.card3Txt{
+    flex: 1;
+}
+
+.prix{
+    align-self: flex-end;
+}
+
+.commander{
+    text-align: center;
+}
+
+.cmdButton{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background: rgb(147,86,220);
+    background: linear-gradient(342deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 85%);
+    padding: 15px;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px #bdbdbd;
+}
+
+.cmdButton:hover{
+    background: rgb(172, 108, 250);
+    background: linear-gradient(342deg, rgb(170, 106, 248) 0%, rgb(255, 145, 224) 85%);
+    box-shadow: 0px 3px 5px #747474;
+}

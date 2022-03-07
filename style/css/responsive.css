@@ -5,4 +5,12 @@
         justify-content: space-around;
     }
 
+    .cardMenuList{
+        flex-direction: row;
+    }
+
+    .card3{
+        margin-right: 10px;
+    }
+
 }
