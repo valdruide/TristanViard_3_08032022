@@ -26,9 +26,11 @@
     </div>
     
 
-    <header class="mt-25">
+    <!-- <header class="mt-25">
         <img class="logo" src="style/img/ohmyfood@2x.svg" alt="logo Ohmyfood">
-    </header>
+    </header> -->
+
+    <?php include('components/header.php'); ?>
 
 
     <main>
@@ -81,20 +83,22 @@
             <div class="cardlist flexbox">
 
                 <div class="card2">
-                    <div class="cardNew">
-                        <p>Nouveau</p>
-                    </div>
-                    <img src="style/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant Ménilmontant">
-                    <div class="flexbox">
-                        <div class="cardTXT flexbox">
-                            <h3>La palette du goût</h3>
-                            <p>Ménilmontant</p>
+                    <a href="#">
+                        <div class="cardNew">
+                            <p>Nouveau</p>
                         </div>
-                        <div class="icoCoeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-heart"></i>
+                        <img src="style/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant Ménilmontant">
+                        <div class="flexbox">
+                            <div class="cardTXT flexbox">
+                                <h3>La palette du goût</h3>
+                                <p>Ménilmontant</p>
+                            </div>
+                            <div class="icoCoeur">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="card2">
