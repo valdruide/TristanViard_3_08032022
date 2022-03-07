@@ -134,17 +134,19 @@
                 </div>
 
                 <div class="card2">
-                    <img src="style/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image restaurant Le délice des sens">
-                    <div class="flexbox">
-                        <div class="cardTXT flexbox">
-                            <h3>Le délice des sens</h3>
-                            <p>Folie-Méricourt</p>
+                    <a href="le-delice-des-sens.php">
+                        <img src="style/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image restaurant Le délice des sens">
+                        <div class="flexbox">
+                            <div class="cardTXT flexbox">
+                                <h3>Le délice des sens</h3>
+                                <p>Folie-Méricourt</p>
+                            </div>
+                            <div class="icoCoeur">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icoCoeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-heart"></i>
-                        </div>
-                    </div>
+                    </a>
                 </div>
 
             </div>
