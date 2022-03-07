@@ -118,17 +118,19 @@
                 </div>
 
                 <div class="card2">
-                    <img src="style/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image restaurant À la française">
-                    <div class="flexbox">
-                        <div class="cardTXT flexbox">
-                            <h3>À la française</h3>
-                            <p>Cité Rouge</p>
+                    <a href="a-la-francaise.php">
+                        <img src="style/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image restaurant À la française">
+                        <div class="flexbox">
+                            <div class="cardTXT flexbox">
+                                <h3>À la française</h3>
+                                <p>Cité Rouge</p>
+                            </div>
+                            <div class="icoCoeur">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icoCoeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-heart"></i>
-                        </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="card2">
