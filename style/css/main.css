@@ -319,3 +319,38 @@ li a:hover{
     color: white;
     padding-right: 5px;
 }
+
+
+/*LA PALETTE DU GOUT*/
+
+.imageResto{
+    position: relative;
+    z-index: -1;
+    height: 240px;
+}
+
+.imgHead{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.sectionMenu1{
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.subTtitle{
+    margin-bottom: 5px;
+}
+
+.horizontalGreen{
+    background-color: #99E2D0;
+    height: 4px;
+    width: 40px;
+}

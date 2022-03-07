@@ -26,10 +26,6 @@
     </div>
     
 
-    <!-- <header class="mt-25">
-        <img class="logo" src="style/img/ohmyfood@2x.svg" alt="logo Ohmyfood">
-    </header> -->
-
     <?php include('components/header.php'); ?>
 
 
@@ -83,11 +79,11 @@
             <div class="cardlist flexbox">
 
                 <div class="card2">
-                    <a href="#">
+                    <a href="la-palette-du-gout.php">
                         <div class="cardNew">
                             <p>Nouveau</p>
                         </div>
-                        <img src="style/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant Ménilmontant">
+                        <img src="style/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant La palette du goût">
                         <div class="flexbox">
                             <div class="cardTXT flexbox">
                                 <h3>La palette du goût</h3>
@@ -105,7 +101,7 @@
                     <div class="cardNew">
                         <p>Nouveau</p>
                     </div>
-                    <img src="style/img/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image restaurant Ménilmontant">
+                    <img src="style/img/stil-u2Lp8tXIcjw-unsplash.jpg" alt="image restaurant La note enchantée">
                     <div class="flexbox">
                         <div class="cardTXT flexbox">
                             <h3>La note enchantée</h3>
@@ -119,7 +115,7 @@
                 </div>
 
                 <div class="card2">
-                    <img src="style/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image restaurant Ménilmontant">
+                    <img src="style/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="image restaurant À la française">
                     <div class="flexbox">
                         <div class="cardTXT flexbox">
                             <h3>À la française</h3>
@@ -133,7 +129,7 @@
                 </div>
 
                 <div class="card2">
-                    <img src="style/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image restaurant Ménilmontant">
+                    <img src="style/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image restaurant Le délice des sens">
                     <div class="flexbox">
                         <div class="cardTXT flexbox">
                             <h3>Le délice des sens</h3>
@@ -150,15 +146,7 @@
         </section>
 
     </main>
-    <footer>
-        <h2>Ohmyfood</h2>
-        <ul>
-            <li class="icoResto"><a href="#">Proposer un restaurant</a></li>
-            <li class="icoHand"><a href="#">Devenir partenaire</a></li>
-            <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </footer>
+    <?php include('components/footer.php'); ?>
 
 </body>
 </html>
