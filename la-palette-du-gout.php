@@ -16,19 +16,27 @@
     <title>La Palette du gout</title>
 </head>
 <body>
-
+    
     <?php include('components/header.php'); ?>
+    
+    
 
     <main>
         <div class="imageResto">
             <img class="imgHead" src="style/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant la palette du gout">
         </div>
         <section class="sectionMenu1">
-            <h1>La Palette du gout</h1>
+            <div class="titre flexbox">
+                <h1>La Palette du gout</h1>
+                <div class="icoCoeur">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
 
             <p class="subTtitle">ENTRÉES</p>
             <div class="horizontalGreen"></div>
-            <div class="cardMenuList flexbox">
+            <div class="cardMenuList flexbox appear1">
 
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -36,6 +44,9 @@
                         <p>Au piment d'Espelette</p>
                     </div>
                     <h3 class="prix">25€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -43,6 +54,9 @@
                         <p>Et ses copeaux de truffe noire</p>
                     </div>
                     <h3 class="prix">35€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -50,19 +64,25 @@
                         <p>Assaisonné à la truffe sur lit de caviar</p>
                     </div>
                     <h3 class="prix">20€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
 
             </div>
             <p class="subTtitle">Plats</p>
             <div class="horizontalGreen"></div>
-            <div class="cardMenuList flexbox">
+            <div class="cardMenuList flexbox appear2">
 
                 <div class="card3 flexbox">
                     <div class="card3Txt">
                         <h3>Filet de boeuf aux herbes</h3>
                         <p>Accompagné de sa ribambelle de légumes</p>
                     </div>
-                    <h3 class="prix aolute">40€</h3>
+                    <h3 class="prix">40€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -70,6 +90,9 @@
                         <p>À la truffe noire sur sa purée de panais</p>
                     </div>
                     <h3 class="prix">35€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -77,13 +100,16 @@
                         <p>Aux agrumes</p>
                     </div>
                     <h3 class="prix">44€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
 
             </div>
 
             <p class="subTtitle">Desserts</p>
             <div class="horizontalGreen"></div>
-            <div class="cardMenuList flexbox">
+            <div class="cardMenuList flexbox appear3">
 
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -91,6 +117,9 @@
                         <p>Revisité</p>
                     </div>
                     <h3 class="prix">18€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -98,6 +127,9 @@
                         <p>Et glace à la vanille de Madagascar</p>
                     </div>
                     <h3 class="prix">22€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
                 <div class="card3 flexbox">
                     <div class="card3Txt">
@@ -105,6 +137,9 @@
                         <p>Au piment d'Espelette et à la truffe noire</p>
                     </div>
                     <h3 class="prix">23€</h3>
+                    <div class="cardAnim">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
 
             </div>

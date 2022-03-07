@@ -323,26 +323,45 @@ li a:hover{
 
 /*LA PALETTE DU GOUT*/
 
+
+.headerMenu i{
+    font-size: 25px;
+    align-self: center;
+    padding-left: 15px;
+}
+
+.headerMenu img{
+    flex: 2;
+    height: 40px;
+}
+
 .imageResto{
     position: relative;
-    z-index: -1;
-    height: 240px;
+    height: 300px;
+    height: 45vh;
+    padding-top: unset;
 }
 
 .imgHead{
     position: absolute;
-    width: 100%;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .sectionMenu1{
     background-color: #F6F6F6;
     border-radius: 25px;
     padding: 20px;
+    transform: translateY(-50px);
+}
+
+.titre h1{
+    flex: 2;
 }
 
 .subTtitle{
@@ -365,10 +384,13 @@ li a:hover{
     padding: 5px 15px;
     border-radius: 25px;
     width: 100%;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .card3 h3, .card3 p{
     margin: 10px;
+    margin-right: 20px;
 }
 
 .card3Txt{
@@ -395,10 +417,74 @@ li a:hover{
     width: 150px;
     cursor: pointer;
     box-shadow: 0px 3px 5px #bdbdbd;
+    transition: .3s ease-out;
 }
 
 .cmdButton:hover{
     background: rgb(172, 108, 250);
     background: linear-gradient(342deg, rgb(170, 106, 248) 0%, rgb(255, 145, 224) 85%);
     box-shadow: 0px 3px 5px #747474;
+}
+
+/*CARD ANIM*/
+
+.cardAnim i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    font-size: 2rem;
+    background-color: #99e2d0;
+    color: white;
+}
+
+.cardAnim{
+    display: flex;
+    width: 11rem;
+    transition: .2s ease-in-out;
+    margin: -1rem -12rem -1rem auto;
+}
+
+.card3:hover .cardAnim{
+    margin: -1rem -6rem -1rem auto;
+}
+
+.card3:hover .cardAnim i::before{
+    animation: spin .3s linear;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.appear1{
+    opacity: 0;
+    animation: aparition 1s .3s ease-in-out forwards;
+}
+
+.appear2{
+    opacity: 0;
+    animation: aparition 1s .5s ease-in-out forwards;
+}
+
+.appear3{
+    opacity: 0;
+    animation: aparition 1s .7s ease-in-out forwards;
+}
+
+@keyframes aparition{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
 }

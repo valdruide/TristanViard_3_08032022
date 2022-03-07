@@ -25,8 +25,9 @@
         </div>
     </div>
     
-
-    <?php include('components/header.php'); ?>
+    <header>
+        <img class="logo" src="style/img/ohmyfood@2x.svg" alt="logo Ohmyfood">
+    </header>
 
 
     <main>
