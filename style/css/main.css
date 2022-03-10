@@ -388,11 +388,13 @@ li a:hover{
     cursor: pointer;
     flex-basis: 30%;
     box-shadow: 0px 3px 5px #bdbdbd;
+    max-height: 150px;
 }
 
 .card3 h3, .card3 p{
     margin: 10px;
     margin-right: 20px;
+    font-size: 15px;
 }
 
 .card3Txt{
