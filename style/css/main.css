@@ -391,7 +391,24 @@ li a:hover{
     max-height: 150px;
 }
 
-.card3 h3, .card3 p{
+.card3 p{
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card3 h3{
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card3 h4{
     margin: 10px;
     margin-right: 20px;
     font-size: 15px;
@@ -465,4 +482,3 @@ li a:hover{
         transform: rotate(0deg);
     }
 }
-

@@ -53,7 +53,7 @@
                         <h3>Foie gras de canard mi-cuit</h3>
                         <p>Et ses copeaux de truffe noire</p>
                     </div>
-                    <h3 class="prix">35€</h3>
+                    <h4 class="prix">35€</h4>
                     <div class="cardAnim">
                         <i class="fas fa-check-circle"></i>
                     </div>
@@ -63,7 +63,7 @@
                         <h3>Oeuf au plat</h3>
                         <p>Assaisonné à la truffe sur lit de caviar</p>
                     </div>
-                    <h3 class="prix">20€</h3>
+                    <h4 class="prix">20€</h4>
                     <div class="cardAnim">
                         <i class="fas fa-check-circle"></i>
                     </div>
