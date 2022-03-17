@@ -22,7 +22,7 @@ html{
     overflow-x: hidden;
 }
 
-p, h2, h3, h4, h5, input, button, li{
+p, h2, h3, h4, h5, input, button, li, span{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -393,7 +393,6 @@ li a:hover{
 
 .card3 p{
     margin: 10px;
-    margin-right: 20px;
     font-size: 15px;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -414,12 +413,22 @@ li a:hover{
     font-size: 15px;
 }
 
+.pPrix{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card3Txt{
-    flex: 1;
+    /* flex: 1; */
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .prix{
-    align-self: flex-end;
+    align-self: center;
+    font-weight: bold;
 }
 
 .commander{
@@ -467,7 +476,8 @@ li a:hover{
 }
 
 .card3:hover .cardAnim{
-    margin: -1rem -6rem -1rem auto;
+    margin: -1rem -2.3rem -1rem auto;
+    justify-content: space-around;
 }
 
 .card3:hover .cardAnim i::before{
